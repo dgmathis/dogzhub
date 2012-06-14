@@ -8,13 +8,10 @@ class AppController extends Controller {
                 'controller' => 'users',
                 'action' => 'login'
             ),
-            'loginRedirect' => array(
-                'controller' => 'owners',
-                'action' => 'profile'
-            ),
+            'loginRedirect' => '/',
             'logoutRedirect' => array(
-                'controller' => 'pages',
-                'action' => 'index'
+                'controller' => 'users',
+                'action' => 'login'
             ),
             'authError' => 'Did you really think you are allowed to see that?',
             'authenticate' => array(
