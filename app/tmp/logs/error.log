@@ -1,0 +1,217 @@
+2012-05-11 03:06:56 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 03:07:17 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 03:08:21 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 03:08:45 Error: [MissingActionException] Action UsersController::register() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 03:09:25 Error: [MissingActionException] Action UsersController::register() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 03:11:11 Error: [MissingViewException] View file "C:\wamp\www\dogzhub\app\View\Users\index.ctp" is missing.
+#0 C:\wamp\www\dogzhub\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 C:\wamp\www\dogzhub\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#2 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#3 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-11 03:13:00 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 03:13:23 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 03:13:32 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 03:14:03 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-11 13:02:53 Error: [MissingPluginException] Plugin Owner could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(328): CakePlugin::path('Owner')
+#1 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(216): App::pluginPath('Owner')
+#2 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(502): App::path('Model', 'Owner')
+#3 [internal function]: App::load('city')
+#4 [internal function]: spl_autoload_call('city')
+#5 C:\wamp\www\dogzhub\lib\Cake\Utility\ClassRegistry.php(135): class_exists('city')
+#6 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(154): ClassRegistry::init('Owner.city', true)
+#7 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(337): FormHelper->_getModel('Owner.city')
+#8 C:\wamp\www\dogzhub\app\View\Users\register.ctp(5): FormHelper->create('Owner.city')
+#9 C:\wamp\www\dogzhub\lib\Cake\View\View.php(598): include('C:\wamp\www\dog...')
+#10 C:\wamp\www\dogzhub\lib\Cake\View\View.php(365): View->_render('C:\wamp\www\dog...')
+#11 C:\wamp\www\dogzhub\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#12 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#13 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-11 13:18:11 Error: [MissingPluginException] Plugin Owner could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(328): CakePlugin::path('Owner')
+#1 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(216): App::pluginPath('Owner')
+#2 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(502): App::path('Model', 'Owner')
+#3 [internal function]: App::load('city')
+#4 [internal function]: spl_autoload_call('city')
+#5 C:\wamp\www\dogzhub\lib\Cake\Utility\ClassRegistry.php(135): class_exists('city')
+#6 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(154): ClassRegistry::init('Owner.city', true)
+#7 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(337): FormHelper->_getModel('Owner.city')
+#8 C:\wamp\www\dogzhub\app\View\Users\register.ctp(5): FormHelper->create('Owner.city')
+#9 C:\wamp\www\dogzhub\lib\Cake\View\View.php(598): include('C:\wamp\www\dog...')
+#10 C:\wamp\www\dogzhub\lib\Cake\View\View.php(365): View->_render('C:\wamp\www\dog...')
+#11 C:\wamp\www\dogzhub\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#12 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#13 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-11 13:18:18 Error: [MissingPluginException] Plugin Owner could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(328): CakePlugin::path('Owner')
+#1 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(216): App::pluginPath('Owner')
+#2 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(502): App::path('Model', 'Owner')
+#3 [internal function]: App::load('city')
+#4 [internal function]: spl_autoload_call('city')
+#5 C:\wamp\www\dogzhub\lib\Cake\Utility\ClassRegistry.php(135): class_exists('city')
+#6 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(154): ClassRegistry::init('Owner.city', true)
+#7 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(337): FormHelper->_getModel('Owner.city')
+#8 C:\wamp\www\dogzhub\app\View\Users\register.ctp(5): FormHelper->create('Owner.city')
+#9 C:\wamp\www\dogzhub\lib\Cake\View\View.php(598): include('C:\wamp\www\dog...')
+#10 C:\wamp\www\dogzhub\lib\Cake\View\View.php(365): View->_render('C:\wamp\www\dog...')
+#11 C:\wamp\www\dogzhub\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#12 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#13 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-11 13:18:56 Error: [MissingPluginException] Plugin Owner could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(328): CakePlugin::path('Owner')
+#1 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(216): App::pluginPath('Owner')
+#2 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(502): App::path('Model', 'Owner')
+#3 [internal function]: App::load('city')
+#4 [internal function]: spl_autoload_call('city')
+#5 C:\wamp\www\dogzhub\lib\Cake\Utility\ClassRegistry.php(135): class_exists('city')
+#6 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(154): ClassRegistry::init('Owner.city', true)
+#7 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(337): FormHelper->_getModel('Owner.city')
+#8 C:\wamp\www\dogzhub\app\View\Users\register.ctp(5): FormHelper->create('Owner.city')
+#9 C:\wamp\www\dogzhub\lib\Cake\View\View.php(598): include('C:\wamp\www\dog...')
+#10 C:\wamp\www\dogzhub\lib\Cake\View\View.php(365): View->_render('C:\wamp\www\dog...')
+#11 C:\wamp\www\dogzhub\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#12 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#13 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-11 13:19:31 Error: [MissingPluginException] Plugin Owner could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(328): CakePlugin::path('Owner')
+#1 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(216): App::pluginPath('Owner')
+#2 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(502): App::path('Model', 'Owner')
+#3 [internal function]: App::load('city')
+#4 [internal function]: spl_autoload_call('city')
+#5 C:\wamp\www\dogzhub\lib\Cake\Utility\ClassRegistry.php(135): class_exists('city')
+#6 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(154): ClassRegistry::init('Owner.city', true)
+#7 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(337): FormHelper->_getModel('Owner.city')
+#8 C:\wamp\www\dogzhub\app\View\Users\register.ctp(5): FormHelper->create('Owner.city')
+#9 C:\wamp\www\dogzhub\lib\Cake\View\View.php(598): include('C:\wamp\www\dog...')
+#10 C:\wamp\www\dogzhub\lib\Cake\View\View.php(365): View->_render('C:\wamp\www\dog...')
+#11 C:\wamp\www\dogzhub\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#12 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#13 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-11 13:20:15 Error: [MissingPluginException] Plugin Owner could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(328): CakePlugin::path('Owner')
+#1 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(216): App::pluginPath('Owner')
+#2 C:\wamp\www\dogzhub\lib\Cake\Core\App.php(502): App::path('Model', 'Owner')
+#3 [internal function]: App::load('city')
+#4 [internal function]: spl_autoload_call('city')
+#5 C:\wamp\www\dogzhub\lib\Cake\Utility\ClassRegistry.php(135): class_exists('city')
+#6 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(154): ClassRegistry::init('Owner.city', true)
+#7 C:\wamp\www\dogzhub\lib\Cake\View\Helper\FormHelper.php(337): FormHelper->_getModel('Owner.city')
+#8 C:\wamp\www\dogzhub\app\View\Users\register.ctp(5): FormHelper->create('Owner.city')
+#9 C:\wamp\www\dogzhub\lib\Cake\View\View.php(598): include('C:\wamp\www\dog...')
+#10 C:\wamp\www\dogzhub\lib\Cake\View\View.php(365): View->_render('C:\wamp\www\dog...')
+#11 C:\wamp\www\dogzhub\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#12 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#13 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-11 13:32:56 Error: [MissingControllerException] Controller class LgoutController could not be found.
+#0 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-12 02:09:54 Error: [MissingActionException] Action UsersController::view() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 13:02:35 Error: [MissingControllerException] Controller class LogingController could not be found.
+#0 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-12 13:22:12 Error: [MissingActionException] Action OwnersController::logout() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(OwnersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 13:37:08 Error: [MissingViewException] View file "C:\wamp\www\dogzhub\app\View\Owners\edit.ctp" is missing.
+#0 C:\wamp\www\dogzhub\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 C:\wamp\www\dogzhub\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#2 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#3 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(OwnersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-12 17:56:00 Error: [MissingActionException] Action OwnersController::view() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(OwnersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 18:59:23 Error: [MissingActionException] Action OwnersController::view() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(OwnersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 18:59:42 Error: [MissingActionException] Action OwnersController::view() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(OwnersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 19:00:46 Error: [MissingActionException] Action OwnersController::view() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(OwnersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-08 02:40:09 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-08 02:44:17 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 04:25:10 Error: [MissingActionException] Action OwnersController::1() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(OwnersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 04:25:20 Error: [MissingActionException] Action OwnersController::view() could not be found.
+#0 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\dogzhub\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(OwnersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\dogzhub\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

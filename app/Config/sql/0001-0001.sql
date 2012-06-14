@@ -1,0 +1,20 @@
+
+CREATE TABLE `dogzhub`.`users` (
+ `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+ `email` VARCHAR(50) NOT NULL,
+ `password` VARCHAR(50) NOT NULL, 
+ UNIQUE (`email`)
+) DEFAULT CHARACTER SET utf8;
+
+CREATE TABLE `dogzhub`.`owners` (
+ `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+ `first_name` VARCHAR(50) NOT NULL,
+ `last_name` VARCHAR(50) NOT NULL,
+ `user_id` INT UNSIGNED NOT NULL, 
+ `city` VARCHAR(50) NULL,
+ `state` VARCHAR(50) NULL,
+ `zip` VARCHAR(50) NOT NULL,
+ `profile_photo` TEXT NULL,
+ `created` DATETIME NOT NULL,
+ `modified` DATETIME NOT NULL
+) DEFAULT CHARACTER SET utf8;
